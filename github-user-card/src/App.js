@@ -45,7 +45,8 @@ export default class App extends React.Component {
 
   render() {
     const Title = styled.h1`
-      with: 20%;
+      with: 100%;
+      align-content: center;
       margin: 0 auto;
     `;
 
@@ -57,11 +58,11 @@ export default class App extends React.Component {
     `;
 
     const UserInfoLeft = styled.div`
-      width: 50%;
+      width: 100%;
     `;
 
     const UserInfoRight = styled.div`
-      width: 50%;
+      width: 100%;
     `;
 
     const UserContribution = styled.div`
